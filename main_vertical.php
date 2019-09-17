@@ -8,7 +8,7 @@
 
   <?php
   // MySQL 접속
-    $conn=mysqli_connect('localhost', 'root', '4243109', 'songdolib');
+    $conn=mysqli_connect('localhost', 'root', 'password', 'songdolib');
 
     $from = $_GET['from'];
     $to = $_GET['to'];
