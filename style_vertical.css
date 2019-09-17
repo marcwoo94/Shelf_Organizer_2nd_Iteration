@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<style>
+
+div.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+    text-align: center;
+    margin: 0px;
+}
+
+th {
+    width: 80px;
+    font-size: 50px;
+    font-weight: bold;
+    color:#fff;
+    background:#ce4869;
+    padding: 30px;
+}
+
+th.id {
+    height: 80px;
+    transform: rotate(270deg);
+}
+
+th.id:first-child {
+    border-top-right-radius:30px;
+}
+
+th.id:last-child {
+    border-top-left-radius:100px;
+}
+
+th.title {
+    height: 1770px;
+    text-align: left;
+}
+
+
+
+td {
+  width: 80px;
+  font-size: 50px;
+  font-weight: bold;
+  background: #eee;
+  padding: 30px;
+  border: 1px solid black;
+}
+
+td.id {
+    height:80px;
+}
+
+td.id2 {
+    height: 80px;
+    background: #ffffff;
+}
+
+td.conip {
+  height: 80px;
+  padding: 50px 30px 50px 30px;
+}
+
+td.conip2 {
+  height: 80px;
+  padding: 50px 30px 50px 30px;
+  background: #ffffff;
+}
+
+td.title {
+    height: 1800px;
+    text-align: left;
+    display: inline-block;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+td.title2 {
+    height: 1800px;
+    text-align: left;
+    display: inline-block;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    background: #ffffff;
+}
+
+input.home{
+    width:200px;
+    height:70px;
+    margin:10px 0px 30px 0px;
+    font-size:xx-large;
+    border:1px solid black;
+}
+
+input[type=submit] {
+    width:250px;
+    font-size: 50px;
+    font-weight:500;
+    background-color: #ce4869;
+    color:#fff;
+    padding: 20px;
+    border-radius: 0px 30px 0px 30px;
+}
+
+</style>
+</html>
